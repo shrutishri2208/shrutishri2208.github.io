@@ -140,10 +140,11 @@ a:hover {
     height: 35px;
   }
   #name {
-    margin: 50px 0px 230px 0px;
+    margin: 30px 0px 50px 0px;
     font-size: 40px;
     line-height: 50px;
   }
+
   #description {
     margin: 0px 0px 50px 0px;
     font-size: 18px;
@@ -176,26 +177,29 @@ a:hover {
     height: 25px;
     width: 25px;
   }
+  #shapesContainer {
+    margin-bottom: 250px;
+  }
 
   #shape1 {
     position: absolute;
+    left: 30%;
     height: 150px;
     width: 150px;
-    margin-left: 50%;
   }
 
   #shape2 {
     position: absolute;
+    left: 30%;
     height: 150px;
     width: 150px;
-    margin-left: 50%;
   }
 
   #shape3 {
     position: absolute;
+    left: 30%;
     height: 150px;
     width: 150px;
-    margin-left: 50%;
   }
 }
 
