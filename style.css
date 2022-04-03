@@ -2,7 +2,8 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("Background.png");
-  background: url("Background.png") cover left;
+  background: url("Background.png");
+  background-position: left;
   height: 100%;
 }
 body {
@@ -190,6 +191,7 @@ a:hover {
   #shape2,
   #shape3 {
     position: absolute;
+    margin-left: 25%;
     height: 150px;
     width: 150px;
   }
