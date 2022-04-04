@@ -11,11 +11,10 @@ body {
   color: rgb(255, 255, 255);
   font-family: "Syncopate", sans-serif;
   margin: 20px;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 hr {
+  width: 100%;
   height: 3px;
   border-width: 0px;
   background-color: #fff;
@@ -44,12 +43,12 @@ hr {
 
   border-radius: 40px;
   border-color: #fff;
-  background: linear-gradient(
+  /*background: linear-gradient(
     180deg,
     rgba(255, 44, 143, 0.5),
     rgba(255, 250, 209, 0.5)
-  );
-  border: none;
+  );*/
+  background: none;
 }
 
 #mainText {
@@ -127,10 +126,6 @@ a:hover {
 }
 
 @media screen and (max-width: 625px) {
-  body {
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
   hr {
     height: 8px;
     border-radius: 8px;
@@ -143,11 +138,13 @@ a:hover {
     font-size: 10px;
   }
   #capsule {
+    display: none;
     height: 35px;
+    border-width: 5px;
   }
   #name {
     margin: 30px 0px 30px 0px;
-    font-size: 40px;
+    font-size: 10vw;
     line-height: 50px;
   }
   #description {
@@ -220,6 +217,7 @@ a:hover {
   }
   #capsule {
     height: 60px;
+    border-width: 7px;
   }
 
   #name {
