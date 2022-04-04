@@ -62,7 +62,7 @@ hr {
   margin-left: 10px;
 
   border-radius: 40px;
-  border-color: #fff;
+  border-color: rgb(255, 252, 226);
   /*background: linear-gradient(
     180deg,
     rgba(255, 44, 143, 0.5),
@@ -109,6 +109,17 @@ a:hover {
   color: #fff;
 }
 
+#linkedin,
+#email {
+  float: left;
+}
+
+#linkedin:hover,
+#email:hover {
+  filter: opacity(0.6);
+  transition: all 0.75s;
+}
+
 @media screen and (max-width: 625px) {
   body {
     margin: 10px;
@@ -122,9 +133,8 @@ a:hover {
     font-size: 10px;
   }
   #capsule {
-    display: none;
-    height: 35px;
-    border-width: 5px;
+    height: 30px;
+    border-width: 4px;
   }
 
   #name {
@@ -154,13 +164,11 @@ a:hover {
   }
 
   #linkedin {
-    float: left;
     width: 20px;
     height: 20px;
     margin: 20px 20px 20px 20px;
   }
   #email {
-    float: left;
     width: 20px;
     height: 20px;
     margin: 21px 20px 20px 0px;
@@ -221,13 +229,11 @@ a:hover {
   }
 
   #linkedin {
-    float: left;
     width: 30px;
     height: 30px;
     margin: 35px 25px 20px 0px;
   }
   #email {
-    float: left;
     width: 30px;
     height: 30px;
     margin: 38px 25px 20px 0px;
