@@ -38,15 +38,15 @@ hr {
   background: linear-gradient(
     135deg,
     rgba(255, 250, 209) 0%,
-    rgb(255, 95, 169) 25%,
+    rgb(255, 137, 192) 25%,
     rgba(255, 250, 209) 50%,
-    rgb(255, 95, 169) 75%,
+    rgb(255, 137, 192) 75%,
     rgba(255, 250, 209) 100%
   );
   background-size: 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: fadeUp 1s ease backwards, animate 20s linear infinite;
+  animation: fadeUp 1s ease backwards, animate 15s linear infinite;
 }
 @keyframes animate {
   to {
