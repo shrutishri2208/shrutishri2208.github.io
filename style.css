@@ -1,3 +1,8 @@
+:root {
+  --primary: rgba(255, 250, 209, 0.3);
+  --secondary: rgba(255, 44, 143, 0.3);
+}
+
 html {
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,6 +34,23 @@ hr {
   font-weight: 700;
   animation: fadeUp 1s ease backwards;
   animation-delay: 0.5s;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 250, 209) 0%,
+    rgb(255, 95, 169) 25%,
+    rgba(255, 250, 209) 50%,
+    rgb(255, 95, 169) 75%,
+    rgba(255, 250, 209) 100%
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate {
+  to {
+    background-position: 400%;
+  }
 }
 
 #highlight {
@@ -280,11 +302,6 @@ a:hover {
     height: 350px;
     width: 350px;
   }
-}
-
-:root {
-  --primary: rgba(255, 250, 209, 0.3);
-  --secondary: rgba(255, 44, 143, 0.3);
 }
 
 @keyframes leftToRight {
