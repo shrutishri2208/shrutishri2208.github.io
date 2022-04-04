@@ -32,7 +32,6 @@ hr {
 }
 #name {
   font-weight: 700;
-  animation: fadeUp 1s ease backwards;
   animation-delay: 0.5s;
   background: linear-gradient(
     135deg,
@@ -45,7 +44,7 @@ hr {
   background-size: 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animate 20s linear infinite;
+  animation: fadeUp 1s ease backwards, animate 20s linear infinite;
 }
 @keyframes animate {
   to {
