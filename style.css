@@ -25,6 +25,7 @@ hr {
   border-width: 0px;
   background-color: #fff;
   animation: leftToRight 1s ease backwards;
+  animation-delay: 1s;
   right: 0;
 }
 #header {
@@ -34,7 +35,7 @@ hr {
 #name {
   float: left;
   font-weight: bold;
-  animation-delay: 0.5s;
+  animation-delay: 1s;
   background: linear-gradient(
     135deg,
     rgb(255, 243, 151) 0%,
@@ -70,17 +71,17 @@ hr {
 #description {
   font-weight: 400;
   animation: fadeUp 1s ease backwards;
-  animation-delay: 0.9s;
+  animation-delay: 1.4s;
 }
 
 #gameDescription {
   animation: fadeUp 1s ease backwards;
-  animation-delay: 1.3s;
+  animation-delay: 1.8s;
 }
 
 #linkText {
   animation: fadeUp 1s ease backwards;
-  animation-delay: 1.7s;
+  animation-delay: 2.1s;
 }
 
 #here {
