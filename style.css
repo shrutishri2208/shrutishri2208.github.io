@@ -117,6 +117,8 @@ a:hover {
   filter: opacity(1);
 }
 
+/* MOBILES */
+
 @media screen and (max-width: 625px) {
   body {
     margin: 10px;
@@ -178,6 +180,8 @@ a:hover {
   }
 }
 
+/* LAPTOPS */
+
 @media screen and (min-width: 625px) {
   #html {
     background-repeat: no-repeat;
@@ -204,14 +208,14 @@ a:hover {
   #name {
     font-size: 90px;
     line-height: 80px;
-    margin: 50px 0px 10px 0px;
+    margin: 40px 0px 10px 0px;
   }
   #mainText {
     font-size: 23px;
   }
 
   #description {
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 100px 0px;
   }
 
   #gameDescription {
@@ -228,12 +232,12 @@ a:hover {
   #linkedin {
     width: 30px;
     height: 30px;
-    margin: 35px 25px 20px 0px;
+    margin: 45px 25px 20px 0px;
   }
   #email {
     width: 30px;
     height: 30px;
-    margin: 38px 25px 20px 0px;
+    margin: 48px 25px 20px 0px;
   }
 }
 
