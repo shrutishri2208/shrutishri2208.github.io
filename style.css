@@ -270,7 +270,6 @@ a:hover {
     opacity: 1;
   }
 }
-
 /*
 #shape1 {
   background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
@@ -394,28 +393,26 @@ a:hover {
   }
 }
 
-
 #shape1 {
-    position: fixed;
-    right: 10%;
-    bottom: 27%;
-    height: 350px;
-    width: 350px;
-  }
+  position: fixed;
+  right: 10%;
+  bottom: 27%;
+  height: 350px;
+  width: 350px;
+}
 
-  #shape2 {
-    position: fixed;
-    right: 10%;
-    bottom: 27%;
-    height: 350px;
-    width: 350px;
-  }
+#shape2 {
+  position: fixed;
+  right: 10%;
+  bottom: 27%;
+  height: 350px;
+  width: 350px;
+}
 
-  #shape3 {
-    position: fixed;
-    right: 10%;
-    bottom: 27%;
-    height: 350px;
-    width: 350px;
-  }
-*/
+#shape3 {
+  position: fixed;
+  right: 10%;
+  bottom: 27%;
+  height: 350px;
+  width: 350px;
+}*/
